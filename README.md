@@ -7,7 +7,7 @@ Finished December 2017
 
 University of Minnesota
 
-Motivated by the discovery of the Oumuamua asteroid in October 2017, I was able to build a program centered around solving ordinary differential equations of motion in order to predict the future trajectory of the asteroid as it traverses and eventually leaves our solar system.
+Motivated by the discovery of the Oumuamua asteroid in October 2017, I was able to build a program centered around solving ordinary differential equations of motion under the influence of gravity in order to predict the future trajectory of the asteroid as it traverses past our sun and eventually leaves our solar system.
 
 Two .cpp files exist in this repository, both of them represent the final stages of this project. I was able to build programs that, given initial conditions for position and velocity, return data for radial distance from the sun and velocity magnitudes from time 0 up to a time of 7 years ("asteroid1.cpp" for finding radial distance and "asteroid2.cpp" for finding velocity magnitudes). The time steps used in the program were uniform and established in earlier parts of development, and when using those same time steps, there were 627,722 intervals needed to reach 7 years' time.
 
